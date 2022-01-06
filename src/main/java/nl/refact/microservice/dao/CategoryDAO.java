@@ -1,7 +1,6 @@
-package nl.refact.microservice.CategoryMicroService.dao;
+package nl.refact.microservice.dao;
 
-import nl.refact.microservice.CategoryMicroService.models.Category;
-import nl.refact.microservice.CategoryMicroService.repositorys.CategoryRepository;
+import nl.refact.microservice.repositorys.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

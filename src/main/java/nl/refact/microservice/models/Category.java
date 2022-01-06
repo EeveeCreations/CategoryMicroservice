@@ -1,4 +1,4 @@
-package nl.refact.microservice.CategoryMicroService.models;
+package nl.refact.microservice.models;
 
 import javax.persistence.*;
 
