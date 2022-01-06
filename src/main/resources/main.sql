@@ -1,19 +1,4 @@
 BEGIN TRANSACTION;
-<<<<<<< HEAD
-CREATE TABLE IF NOT EXISTS "category"
-(
-    "category_id"	integer,
-    "description"	varchar,
-    "name"	varchar NOT NULL UNIQUE,
-    CONSTRAINT "category_pk" PRIMARY KEY("category_id")
-);
-INSERT INTO category(description, name) VALUES ('testDescription', 'Test1');
-INSERT INTO category(description, name) VALUES ('testDescription Ole', 'Test2');
-INSERT INTO category(description, name) VALUES ('testDescription Heloow', 'Test3');
-INSERT INTO category(description, name) VALUES ('testDescription Howdy', 'Test4');
-INSERT INTO category(description, name) VALUES ('testDescription haha', 'Test5');
-
-=======
 CREATE TABLE IF NOT EXISTS "admin" (
 	"admin_id"	integer,
 	"name"	varchar NOT NULL UNIQUE,
@@ -185,6 +170,6 @@ INSERT INTO given_answer(question_id, elapsed_seconds, answer_id, route_id) VALU
 INSERT INTO given_answer(question_id, elapsed_seconds, answer_id, route_id) VALUES(3,30,3,3);
 INSERT INTO given_answer(question_id, elapsed_seconds, answer_id, route_id) VALUES(4,40,4,4);
 INSERT INTO given_answer(question_id, elapsed_seconds, answer_id, route_id) VALUES(5,50,5,5);
->>>>>>> Bruteforcedeletingfromrefact
+
 
 COMMIT;

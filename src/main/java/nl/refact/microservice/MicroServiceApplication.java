@@ -32,7 +32,7 @@ public class MicroServiceApplication {
     private ApiInfo metaData() {
         return new ApiInfo(
                 "Category MicroService IKREFACT",
-                "Spring Boot REST API for IKREFACT",
+                "Spring Boot MicroService for IKREFACT",
                 "1.0",
                 "Terms of service",
                 new Contact("Ewout, Eefje", "https://springframework.guru/about/", "eefje@ewout.Refact"),
