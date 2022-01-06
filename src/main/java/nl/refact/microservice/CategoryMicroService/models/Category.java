@@ -1,8 +1,4 @@
-<<<<<<< HEAD:src/main/java/nl/refact/microservice/model/Category.java
-package nl.refact.microservice.model;
-=======
 package nl.refact.microservice.CategoryMicroService.models;
->>>>>>> Bruteforcedeletingfromrefact:src/main/java/nl/refact/microservice/CategoryMicroService/models/Category.java
 
 import javax.persistence.*;
 

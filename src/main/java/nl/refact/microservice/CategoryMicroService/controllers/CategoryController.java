@@ -1,14 +1,7 @@
-<<<<<<< HEAD:src/main/java/nl/refact/microservice/controller/CategoryController.java
-package nl.refact.microservice.controller;
-
-import nl.refact.microservice.model.Category;
-import nl.refact.microservice.DAO.CategoryDAO;
-=======
 package nl.refact.microservice.CategoryMicroService.controllers;
 
 import nl.refact.microservice.CategoryMicroService.dao.CategoryDAO;
 import nl.refact.microservice.CategoryMicroService.models.Category;
->>>>>>> Bruteforcedeletingfromrefact:src/main/java/nl/refact/microservice/CategoryMicroService/controllers/CategoryController.java
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
