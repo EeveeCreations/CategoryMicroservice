@@ -1,5 +1,7 @@
-package nl.refact.microservice.CategoryMicroService;
+package nl.refact.microservice.CategoryMicroService.controllers;
 
+import nl.refact.microservice.CategoryMicroService.dao.CategoryDAO;
+import nl.refact.microservice.CategoryMicroService.models.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
